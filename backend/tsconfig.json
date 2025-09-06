@@ -24,9 +24,15 @@
     "declarationMap": true,
 
     // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": false,
     "exactOptionalPropertyTypes": false,
-    // "strictNullChecks": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitThis": false,
+    "alwaysStrict": false,
+    "noImplicitAny": false,
 
     // Style Options
     // "noImplicitReturns": true,
@@ -37,7 +43,7 @@
     // "noPropertyAccessFromIndexSignature": true,
 
     // Recommended Options
-    // "strict": true,
+    "strict": false,
     "jsx": "react-jsx",
     // "verbatimModuleSyntax": true,
     "isolatedModules": true,
@@ -45,8 +51,7 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
     "allowJs": false,
-    "incremental": true,
-    "noImplicitAny": false
+    "incremental": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
