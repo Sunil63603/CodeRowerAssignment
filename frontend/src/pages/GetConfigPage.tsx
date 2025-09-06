@@ -98,7 +98,7 @@ export default function GetConfigPage(): JSX.Element {
 
           {config && (
             <>
-              <strong className="text-3xl">
+              <strong className="text-xl break-all">
                 Result: {API_BASE}/api/configurations/{id}
               </strong>
 

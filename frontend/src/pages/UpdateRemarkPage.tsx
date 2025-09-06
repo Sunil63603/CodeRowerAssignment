@@ -116,7 +116,7 @@ export default function UpdateRemarkPage(): JSX.Element {
           {error && <div className="text-red-600 font-medium">{error}</div>}
           {success && (
             <>
-              <strong className="text-3xl">
+              <strong className="text-3xl break-all">
                 PUT: {API_BASE}/api/configurations/{id}
               </strong>
               <div className="text-green-600 font-medium">{success}</div>
