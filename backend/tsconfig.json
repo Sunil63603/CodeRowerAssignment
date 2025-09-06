@@ -15,7 +15,7 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     // For nodejs:
-    // "lib": ["esnext"],
+    "lib": ["esnext"],
     // "types": ["node"],
     // and npm install -D @types/node
 
